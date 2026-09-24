@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.jonathangraydon.com/"><strong>Portfolio ↗</strong></a>
+  <a href="https://www.jonathangraydon.com/"><strong>Portfolio ↗︎</strong></a>
   &nbsp; · &nbsp;
-  <a href="#selected-work">Selected work</a>
+  <a href="#user-content-selected-work">Selected work</a>
   &nbsp; · &nbsp;
-  <a href="#on-the-radar">GitHub activity</a>
+  <a href="#user-content-on-the-radar">GitHub activity</a>
   &nbsp; · &nbsp;
-  <a href="https://romgi-productions.itch.io/">Games ↗</a>
+  <a href="https://romgi-productions.itch.io/">Games ↗︎</a>
 </p>
 
 I’m Jonathan, a **Computer Science student at McMaster University**. I build practical web apps, interactive tools, and software for FRC robotics. I like projects that connect what happens on screen to something useful in the real world.
@@ -31,7 +31,7 @@ A dashboard for Port Carling Golf and Country Club: employee assignments, course
 
 <sub>TypeScript · Next.js · Prisma · PostgreSQL</sub>
 
-[View source](https://github.com/Romgi/PCTurf) · [Live app ↗](https://pc-turf.vercel.app/)<br/>
+[View source](https://github.com/Romgi/PCTurf) · [Live app ↗︎](https://pc-turf.vercel.app/)<br/>
 <sub>Live app requires sign-in.</sub>
 
 </td>
@@ -44,7 +44,7 @@ An interactive studio with seven algorithms, editable graphs, replayable executi
 
 <sub>TypeScript · React · Vite · Cloudflare Workers</sub>
 
-[View source](https://github.com/Romgi/RouteLab) · [Try the demo ↗](https://routelab-algorithm-studio.jonathangraydon22.chatgpt.site/)
+[View source](https://github.com/Romgi/RouteLab) · [Try the demo ↗︎](https://routelab-algorithm-studio.jonathangraydon22.chatgpt.site/)
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ A Windows tool for live AprilTag detection, camera calibration, and interactive 
 
 <sub>Python · PySide6 · OpenCV · NumPy</sub>
 
-[View source](https://github.com/Romgi/apriltag-studio) · [Windows download ↗](https://github.com/Romgi/apriltag-studio/releases/latest)
+[View source](https://github.com/Romgi/apriltag-studio) · [Windows download ↗︎](https://github.com/Romgi/apriltag-studio/releases/latest)
 
 </td>
 <td width="50%" valign="top">
@@ -70,7 +70,7 @@ A home for my software projects, FRC robotics work, and trumpet experience, with
 
 <sub>Next.js · TypeScript · Tailwind CSS · GSAP</sub>
 
-[View source](https://github.com/Romgi/Personal-Site) · [Visit the site ↗](https://www.jonathangraydon.com/)
+[View source](https://github.com/Romgi/Personal-Site) · [Visit the site ↗︎](https://www.jonathangraydon.com/)
 
 </td>
 </tr>
@@ -107,5 +107,5 @@ A home for my software projects, FRC robotics work, and trumpet experience, with
 
 <p align="center">
   <strong>Explore the work behind the profile.</strong><br/>
-  <a href="https://www.jonathangraydon.com/">jonathangraydon.com ↗</a>
+  <a href="https://www.jonathangraydon.com/">jonathangraydon.com ↗︎</a>
 </p>
