@@ -42,9 +42,9 @@ A dashboard for Port Carling Golf and Country Club: employee assignments, course
 
 An interactive studio with seven algorithms, editable graphs, replayable execution traces, and synchronized comparisons.
 
-<sub>TypeScript · React · Vite · Cloudflare Workers</sub>
+<sub>TypeScript · React · Next.js · Vercel</sub>
 
-[View source](https://github.com/Romgi/RouteLab) · [Try the demo ↗︎](https://routelab-algorithm-studio.jonathangraydon22.chatgpt.site/)
+[View source](https://github.com/Romgi/RouteLab) · [Try the demo ↗︎](https://routelab-phi.vercel.app/)
 
 </td>
 </tr>
