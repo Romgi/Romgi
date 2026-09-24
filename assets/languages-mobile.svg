@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="482" viewBox="0 0 480 482" role="img" aria-labelledby="title desc">
+<title id="title">Romgi&#x27;s public repository languages</title>
+<desc id="desc">Language distribution across 11 public owned repositories, excluding forks, archives, and the profile repo. This measures code bytes, not proficiency. TypeScript: 712,094 bytes; JavaScript: 555,613 bytes; Java: 286,725 bytes; CSS: 212,018 bytes; Python: 181,218 bytes; HTML: 156,264 bytes; PHP: 108,294 bytes; Processing: 17,176 bytes; Shell: 6,438 bytes; Batchfile: 6,326 bytes; Rust: 3,412 bytes; Go: 3,135 bytes; C++: 2,898 bytes; PowerShell: 2,588 bytes</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
+<rect x="0.5" y="0.5" width="479" height="481" rx="14" fill="#0d1117" stroke="#263241"/>
+<text x="24" y="35" fill="#f0f6fc" font-size="22" font-weight="600" >Languages in the code</text>
+<text x="24" y="63" fill="#9baac1" font-size="16" font-weight="400" >Share of public repository code bytes</text>
+<text x="24" y="100" fill="#f0f6fc" font-size="17" font-weight="500" >TypeScript</text>
+<text x="456" y="100" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">31.6%</text>
+<rect x="24" y="111" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="111" width="136.467" height="9" rx="4.5" fill="#67e8f9"/>
+<text x="24" y="150" fill="#f0f6fc" font-size="17" font-weight="500" >JavaScript</text>
+<text x="456" y="150" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">24.6%</text>
+<rect x="24" y="161" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="161" width="106.479" height="9" rx="4.5" fill="#a7f3d0"/>
+<text x="24" y="200" fill="#f0f6fc" font-size="17" font-weight="500" >Java</text>
+<text x="456" y="200" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">12.7%</text>
+<rect x="24" y="211" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="211" width="54.949" height="9" rx="4.5" fill="#a5b4fc"/>
+<text x="24" y="250" fill="#f0f6fc" font-size="17" font-weight="500" >CSS</text>
+<text x="456" y="250" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">9.4%</text>
+<rect x="24" y="261" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="261" width="40.632" height="9" rx="4.5" fill="#fbbf77"/>
+<text x="24" y="300" fill="#f0f6fc" font-size="17" font-weight="500" >Python</text>
+<text x="456" y="300" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">8.0%</text>
+<rect x="24" y="311" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="311" width="34.729" height="9" rx="4.5" fill="#f0abfc"/>
+<text x="24" y="350" fill="#f0f6fc" font-size="17" font-weight="500" >Other</text>
+<text x="456" y="350" fill="#9baac1" font-size="16" font-weight="400" text-anchor="end" class="mono">13.6%</text>
+<rect x="24" y="361" width="432" height="9" rx="4.5" fill="#263241"/>
+<rect x="24" y="361" width="58.744" height="9" rx="4.5" fill="#64748b"/>
+<path d="M24 389H456" stroke="#263241"/>
+<text x="24" y="414" fill="#9baac1" font-size="16" font-weight="400" >11 owned public repos · 2026-09-24</text>
+<text x="24" y="440" fill="#9baac1" font-size="16" font-weight="400" >Code bytes, not proficiency</text>
+<text x="24" y="466" fill="#9baac1" font-size="16" font-weight="400" >Excludes forks, archives &amp; profile repo</text>
+</svg>

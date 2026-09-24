@@ -1,0 +1,50 @@
+name: Refresh profile widgets
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_widgets.py
+      - tests/test_update_widgets.py
+      - .github/workflows/refresh-widgets.yml
+
+permissions: {}
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Romgi/Romgi'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      # Release tags and their commit SHAs verified through the GitHub API.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Check generator behavior
+        run: python -m unittest discover -s tests -v
+      - name: Render public profile widgets
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/update_widgets.py --user Romgi
+      - name: Commit refreshed assets
+        shell: bash
+        run: |
+          git add -- assets/activity.svg assets/languages.svg assets/activity-mobile.svg assets/languages-mobile.svg assets/data.md
+          if git diff --cached --quiet; then
+            echo "Profile widgets are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public profile widgets"
+          git push
