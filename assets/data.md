@@ -1,39 +1,39 @@
 # Public profile data
 
-Updated 2026-09-24 (UTC).
+Updated 2026-09-25 (UTC).
 
 ## Contribution activity
 
-The calendar covers exactly 365 days: **2025-09-25 through 2026-09-24**, inclusive.
+The calendar covers exactly 365 days: **2025-09-26 through 2026-09-25**, inclusive.
 
 | Metric | Value |
 | --- | ---: |
-| Contributions | 584 |
-| Active days | 120 |
+| Contributions | 579 |
+| Active days | 119 |
 | Longest consecutive streak within this period | 7 days |
 
 Source: [GitHub's public contribution calendar](https://github.com/users/Romgi/contributions), fetched without authentication. These are the counts visible to any visitor. They can include anonymized private activity if the account publicly shares it. GitHub's native calendar sometimes includes additional days to complete its first week; this widget uses exactly 365 days.
 
 ## Languages
 
-**2,254,199 code bytes** across **11 public, owned repositories**. Forks, archived repositories, and this profile repository are excluded. These percentages describe repository code bytes, not proficiency or time spent.
+**2,250,124 code bytes** across **11 public, owned repositories**. Forks, archived repositories, and this profile repository are excluded. These percentages describe repository code bytes, not proficiency or time spent.
 
 | Language | Code bytes | Share |
 | --- | ---: | ---: |
-| TypeScript | 712,094 | 31.59% |
-| JavaScript | 555,613 | 24.65% |
-| Java | 286,725 | 12.72% |
-| CSS | 212,018 | 9.41% |
-| Python | 181,218 | 8.04% |
-| HTML | 156,264 | 6.93% |
-| PHP | 108,294 | 4.80% |
+| TypeScript | 707,962 | 31.46% |
+| JavaScript | 555,613 | 24.69% |
+| Java | 286,725 | 12.74% |
+| CSS | 212,075 | 9.43% |
+| Python | 181,218 | 8.05% |
+| HTML | 156,264 | 6.94% |
+| PHP | 108,294 | 4.81% |
 | Processing | 17,176 | 0.76% |
 | Shell | 6,438 | 0.29% |
 | Batchfile | 6,326 | 0.28% |
 | Rust | 3,412 | 0.15% |
 | Go | 3,135 | 0.14% |
 | C++ | 2,898 | 0.13% |
-| PowerShell | 2,588 | 0.11% |
+| PowerShell | 2,588 | 0.12% |
 
 Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repos?type=owner&per_page=100) and each eligible repository's `/languages` endpoint. The graphical widget groups smaller languages as Other when needed; this table includes every language.
 
@@ -42,7 +42,6 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 
 | Date | Contributions |
 | --- | ---: |
-| 2025-09-25 | 9 |
 | 2025-09-26 | 2 |
 | 2025-09-27 | 0 |
 | 2025-09-28 | 0 |
@@ -406,6 +405,7 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 | 2026-09-21 | 1 |
 | 2026-09-22 | 7 |
 | 2026-09-23 | 14 |
-| 2026-09-24 | 8 |
+| 2026-09-24 | 12 |
+| 2026-09-25 | 0 |
 
 </details>

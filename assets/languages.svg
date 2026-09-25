@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="238" viewBox="0 0 960 238" role="img" aria-labelledby="title desc">
 <title id="title">Romgi&#x27;s public repository languages</title>
-<desc id="desc">Language distribution of 2,254,199 code bytes across 11 public, owned, non-fork, non-archived repositories, excluding Romgi/Romgi. This measures repository code bytes, not proficiency. TypeScript: 712,094 bytes; JavaScript: 555,613 bytes; Java: 286,725 bytes; CSS: 212,018 bytes; Python: 181,218 bytes; HTML: 156,264 bytes; PHP: 108,294 bytes; Processing: 17,176 bytes; Shell: 6,438 bytes; Batchfile: 6,326 bytes; Rust: 3,412 bytes; Go: 3,135 bytes; C++: 2,898 bytes; PowerShell: 2,588 bytes</desc>
+<desc id="desc">Language distribution of 2,250,124 code bytes across 11 public, owned, non-fork, non-archived repositories, excluding Romgi/Romgi. This measures repository code bytes, not proficiency. TypeScript: 707,962 bytes; JavaScript: 555,613 bytes; Java: 286,725 bytes; CSS: 212,075 bytes; Python: 181,218 bytes; HTML: 156,264 bytes; PHP: 108,294 bytes; Processing: 17,176 bytes; Shell: 6,438 bytes; Batchfile: 6,326 bytes; Rust: 3,412 bytes; Go: 3,135 bytes; C++: 2,898 bytes; PowerShell: 2,588 bytes</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
 <rect x="0.5" y="0.5" width="959" height="237" rx="14" fill="#0d1117" stroke="#263241"/>
 <text x="32" y="36" fill="#f0f6fc" font-size="19" font-weight="600" >Languages in the code</text>
@@ -8,31 +8,31 @@
 <text x="32" y="63" fill="#9baac1" font-size="12" font-weight="400" >Actual code bytes across public repositories</text>
 <defs><clipPath id="bar"><rect x="32" y="86" width="896" height="14" rx="7"/></clipPath></defs>
 <rect x="32" y="86" width="896" height="14" rx="7" fill="#263241"/>
-<rect x="32.000" y="86" width="283.043" height="14" fill="#67e8f9" clip-path="url(#bar)"/>
+<rect x="32.000" y="86" width="281.911" height="14" fill="#67e8f9" clip-path="url(#bar)"/>
 <circle cx="37" cy="128" r="4" fill="#67e8f9"/>
 <text x="51" y="132" fill="#f0f6fc" font-size="13" font-weight="500" >TypeScript</text>
-<text x="300" y="132" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">31.6%</text>
-<rect x="315.043" y="86" width="220.845" height="14" fill="#a7f3d0" clip-path="url(#bar)"/>
+<text x="300" y="132" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">31.5%</text>
+<rect x="313.911" y="86" width="221.245" height="14" fill="#a7f3d0" clip-path="url(#bar)"/>
 <circle cx="341" cy="128" r="4" fill="#a7f3d0"/>
 <text x="355" y="132" fill="#f0f6fc" font-size="13" font-weight="500" >JavaScript</text>
-<text x="604" y="132" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">24.6%</text>
-<rect x="535.889" y="86" width="113.968" height="14" fill="#a5b4fc" clip-path="url(#bar)"/>
+<text x="604" y="132" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">24.7%</text>
+<rect x="535.156" y="86" width="114.174" height="14" fill="#a5b4fc" clip-path="url(#bar)"/>
 <circle cx="645" cy="128" r="4" fill="#a5b4fc"/>
 <text x="659" y="132" fill="#f0f6fc" font-size="13" font-weight="500" >Java</text>
 <text x="908" y="132" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">12.7%</text>
-<rect x="649.856" y="86" width="84.273" height="14" fill="#fbbf77" clip-path="url(#bar)"/>
+<rect x="649.330" y="86" width="84.448" height="14" fill="#fbbf77" clip-path="url(#bar)"/>
 <circle cx="37" cy="166" r="4" fill="#fbbf77"/>
 <text x="51" y="170" fill="#f0f6fc" font-size="13" font-weight="500" >CSS</text>
 <text x="300" y="170" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">9.4%</text>
-<rect x="734.129" y="86" width="72.031" height="14" fill="#f0abfc" clip-path="url(#bar)"/>
+<rect x="733.778" y="86" width="72.161" height="14" fill="#f0abfc" clip-path="url(#bar)"/>
 <circle cx="341" cy="166" r="4" fill="#f0abfc"/>
 <text x="355" y="170" fill="#f0f6fc" font-size="13" font-weight="500" >Python</text>
-<text x="604" y="170" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">8.0%</text>
-<rect x="806.160" y="86" width="121.840" height="14" fill="#64748b" clip-path="url(#bar)"/>
+<text x="604" y="170" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">8.1%</text>
+<rect x="805.939" y="86" width="122.061" height="14" fill="#64748b" clip-path="url(#bar)"/>
 <circle cx="645" cy="166" r="4" fill="#64748b"/>
 <text x="659" y="170" fill="#f0f6fc" font-size="13" font-weight="500" >Other</text>
 <text x="908" y="170" fill="#9baac1" font-size="12" font-weight="400" text-anchor="end" class="mono">13.6%</text>
 <path d="M32 196H928" stroke="#263241"/>
 <text x="32" y="218" fill="#9baac1" font-size="11" font-weight="400" >11 owned repos · forks, archives &amp; profile repo excluded · bytes ≠ proficiency</text>
-<text x="928" y="218" fill="#9baac1" font-size="11" font-weight="400" text-anchor="end" class="mono">2026-09-24</text>
+<text x="928" y="218" fill="#9baac1" font-size="11" font-weight="400" text-anchor="end" class="mono">2026-09-25</text>
 </svg>
