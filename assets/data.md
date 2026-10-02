@@ -1,10 +1,10 @@
 # Public profile data
 
-Updated 2026-10-01 (UTC).
+Updated 2026-10-02 (UTC).
 
 ## Contribution activity
 
-The calendar covers exactly 365 days: **2025-10-02 through 2026-10-01**, inclusive.
+The calendar covers exactly 365 days: **2025-10-03 through 2026-10-02**, inclusive.
 
 | Metric | Value |
 | --- | ---: |
@@ -16,17 +16,17 @@ Source: [GitHub's public contribution calendar](https://github.com/users/Romgi/c
 
 ## Languages
 
-**2,456,376 code bytes** across **12 public, owned repositories**. Forks, archived repositories, and this profile repository are excluded. These percentages describe repository code bytes, not proficiency or time spent.
+**2,460,156 code bytes** across **12 public, owned repositories**. Forks, archived repositories, and this profile repository are excluded. These percentages describe repository code bytes, not proficiency or time spent.
 
 | Language | Code bytes | Share |
 | --- | ---: | ---: |
-| TypeScript | 873,012 | 35.54% |
-| JavaScript | 555,613 | 22.62% |
-| Java | 286,725 | 11.67% |
-| CSS | 253,277 | 10.31% |
-| Python | 181,218 | 7.38% |
-| HTML | 156,264 | 6.36% |
-| PHP | 108,294 | 4.41% |
+| TypeScript | 876,399 | 35.62% |
+| JavaScript | 555,613 | 22.58% |
+| Java | 286,725 | 11.65% |
+| CSS | 253,670 | 10.31% |
+| Python | 181,218 | 7.37% |
+| HTML | 156,264 | 6.35% |
+| PHP | 108,294 | 4.40% |
 | Processing | 17,176 | 0.70% |
 | Shell | 6,438 | 0.26% |
 | Batchfile | 6,326 | 0.26% |
@@ -42,7 +42,6 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 
 | Date | Contributions |
 | --- | ---: |
-| 2025-10-02 | 3 |
 | 2025-10-03 | 0 |
 | 2025-10-04 | 0 |
 | 2025-10-05 | 2 |
@@ -406,6 +405,7 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 | 2026-09-28 | 0 |
 | 2026-09-29 | 0 |
 | 2026-09-30 | 0 |
-| 2026-10-01 | 0 |
+| 2026-10-01 | 3 |
+| 2026-10-02 | 0 |
 
 </details>
