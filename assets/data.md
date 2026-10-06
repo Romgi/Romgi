@@ -1,10 +1,10 @@
 # Public profile data
 
-Updated 2026-10-05 (UTC).
+Updated 2026-10-06 (UTC).
 
 ## Contribution activity
 
-The calendar covers exactly 365 days: **2025-10-06 through 2026-10-05**, inclusive.
+The calendar covers exactly 365 days: **2025-10-07 through 2026-10-06**, inclusive.
 
 | Metric | Value |
 | --- | ---: |
@@ -42,7 +42,6 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 
 | Date | Contributions |
 | --- | ---: |
-| 2025-10-06 | 4 |
 | 2025-10-07 | 2 |
 | 2025-10-08 | 0 |
 | 2025-10-09 | 0 |
@@ -406,6 +405,7 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 | 2026-10-02 | 0 |
 | 2026-10-03 | 0 |
 | 2026-10-04 | 1 |
-| 2026-10-05 | 0 |
+| 2026-10-05 | 4 |
+| 2026-10-06 | 0 |
 
 </details>
