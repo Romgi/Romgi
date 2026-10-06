@@ -8,8 +8,8 @@ The calendar covers exactly 365 days: **2025-10-07 through 2026-10-06**, inclusi
 
 | Metric | Value |
 | --- | ---: |
-| Contributions | 581 |
-| Active days | 119 |
+| Contributions | 582 |
+| Active days | 120 |
 | Longest consecutive streak within this period | 7 days |
 
 Source: [GitHub's public contribution calendar](https://github.com/users/Romgi/contributions), fetched without authentication. These are the counts visible to any visitor. They can include anonymized private activity if the account publicly shares it. GitHub's native calendar sometimes includes additional days to complete its first week; this widget uses exactly 365 days.
@@ -406,6 +406,6 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 | 2026-10-03 | 0 |
 | 2026-10-04 | 1 |
 | 2026-10-05 | 4 |
-| 2026-10-06 | 0 |
+| 2026-10-06 | 1 |
 
 </details>
