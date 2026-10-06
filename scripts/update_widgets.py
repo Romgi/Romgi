@@ -268,31 +268,23 @@ def languages_svg(user: str, totals: Counter, repository_count: int, as_of: date
     desc = (f"Language distribution of {total:,} code bytes across {repository_count} public, owned, non-fork, "
             f"non-archived repositories, excluding {user}/{user}. This measures repository code bytes, not proficiency. "
             + "; ".join(f"{name}: {count:,} bytes" for name, count in ranked))
-    svg = svg_start(238, f"{user}'s public repository languages", desc)
-    svg += [text(32, 36, "Languages in the code", size=19, color=WHITE, weight=600),
-            text(928, 35, "PUBLIC REPOSITORIES", size=11, color=CYAN, extra='text-anchor="end" class="mono" letter-spacing="1.4"'),
-            text(32, 63, "Actual code bytes across public repositories", size=12),
-            f'<defs><clipPath id="bar"><rect x="32" y="86" width="896" height="14" rx="7"/></clipPath></defs>',
-            f'<rect x="32" y="86" width="896" height="14" rx="7" fill="{BORDER}"/>']
+    svg = svg_start(176, "Programming Languages", desc)
+    svg += [text(32, 36, "Programming Languages", size=19, color=WHITE, weight=600),
+            f'<defs><clipPath id="bar"><rect x="32" y="64" width="896" height="14" rx="7"/></clipPath></defs>',
+            f'<rect x="32" y="64" width="896" height="14" rx="7" fill="{BORDER}"/>']
     position = 32.0
     for index, (language, count) in enumerate(entries):
         width = 896 * count / total
         color = LANGUAGE_COLORS[index]
-        svg.append(f'<rect x="{position:.3f}" y="86" width="{width:.3f}" height="14" fill="{color}" clip-path="url(#bar)"/>')
+        svg.append(f'<rect x="{position:.3f}" y="64" width="{width:.3f}" height="14" fill="{color}" clip-path="url(#bar)"/>')
         position += width
+        if language == "Other":
+            continue
         x = 32 + (index % 3) * 304
-        y = 132 + (index // 3) * 38
-        share = count / total * 100
-        percentage = "<0.1%" if share < 0.1 else f"{share:.1f}%"
+        y = 110 + (index // 3) * 38
         svg += [f'<circle cx="{x + 5}" cy="{y - 4}" r="4" fill="{color}"/>',
-                text(x + 19, y, language, size=13, color=WHITE, weight=500),
-                text(x + 268, y, percentage, size=12, extra='text-anchor="end" class="mono"')]
-    if not entries:
-        svg.append(text(32, 138, "GitHub reports no code bytes for the eligible public repositories.", size=13))
-    svg += [f'<path d="M32 196H928" stroke="{BORDER}"/>',
-            text(32, 218, f"{repository_count} owned repos · forks, archives & profile repo excluded · bytes ≠ proficiency", size=11),
-            text(928, 218, as_of.isoformat(), size=11, extra='text-anchor="end" class="mono"'),
-            "</svg>"]
+                text(x + 19, y, language, size=13, color=WHITE, weight=500)]
+    svg.append("</svg>")
     return "\n".join(svg) + "\n"
 
 
@@ -330,27 +322,18 @@ def activity_mobile_svg(user: str, days: list[dict], as_of: date) -> str:
 def languages_mobile_svg(user: str, totals: Counter, repository_count: int, as_of: date) -> str:
     total = sum(totals.values())
     ranked = sorted(totals.items(), key=lambda item: (-item[1], item[0]))
-    entries = ranked if len(ranked) <= 6 else ranked[:5] + [("Other", sum(count for _, count in ranked[5:]))]
+    entries = ranked if len(ranked) <= 6 else ranked[:5]
     desc = (f"Language distribution across {repository_count} public owned repositories, excluding forks, archives, and the profile repo. "
             "This measures code bytes, not proficiency. "
             + "; ".join(f"{name}: {count:,} bytes" for name, count in ranked))
-    svg = svg_start(482, f"{user}'s public repository languages", desc, width=480)
-    svg += [text(24, 35, "Languages in the code", size=22, color=WHITE, weight=600),
-            text(24, 63, "Share of public repository code bytes", size=16)]
+    svg = svg_start(80 + len(entries) * 50, "Programming Languages", desc, width=480)
+    svg.append(text(24, 35, "Programming Languages", size=22, color=WHITE, weight=600))
     for index, (language, count) in enumerate(entries):
-        y = 100 + index * 50
-        share = 100 * count / total
-        percentage = "<0.1%" if share < 0.1 else f"{share:.1f}%"
+        y = 82 + index * 50
         svg += [text(24, y, language, size=17, color=WHITE, weight=500),
-                text(456, y, percentage, size=16, extra='text-anchor="end" class="mono"'),
                 f'<rect x="24" y="{y + 11}" width="432" height="9" rx="4.5" fill="{BORDER}"/>',
                 f'<rect x="24" y="{y + 11}" width="{432 * count / total:.3f}" height="9" rx="4.5" fill="{LANGUAGE_COLORS[index]}"/>']
-    if not entries:
-        svg.append(text(24, 108, "GitHub reports no eligible code bytes.", size=16))
-    svg += [f'<path d="M24 389H456" stroke="{BORDER}"/>',
-            text(24, 414, f"{repository_count} owned public repos · {as_of.isoformat()}", size=16),
-            text(24, 440, "Code bytes, not proficiency", size=16),
-            text(24, 466, "Excludes forks, archives & profile repo", size=16), "</svg>"]
+    svg.append("</svg>")
     return "\n".join(svg) + "\n"
 
 
