@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="330" viewBox="0 0 480 330" role="img" aria-labelledby="title desc">
 <title id="title">Programming Languages</title>
-<desc id="desc">Language distribution across 12 public owned repositories, excluding forks, archives, and the profile repo. This measures code bytes, not proficiency. TypeScript: 876,399 bytes; JavaScript: 555,613 bytes; Java: 286,725 bytes; CSS: 253,670 bytes; Python: 181,218 bytes; HTML: 156,264 bytes; PHP: 108,294 bytes; Processing: 17,176 bytes; Shell: 6,438 bytes; Batchfile: 6,326 bytes; Rust: 3,412 bytes; Go: 3,135 bytes; C++: 2,898 bytes; PowerShell: 2,588 bytes</desc>
+<desc id="desc">Language distribution across 12 public owned repositories, excluding forks, archives, and the profile repo. This measures code bytes, not proficiency. TypeScript: 876,395 bytes; JavaScript: 555,613 bytes; Java: 286,725 bytes; CSS: 253,670 bytes; Python: 181,218 bytes; HTML: 156,264 bytes; PHP: 108,294 bytes; Processing: 17,176 bytes; Shell: 6,438 bytes; Batchfile: 6,326 bytes; Rust: 3,412 bytes; Go: 3,135 bytes; C++: 2,898 bytes; PowerShell: 2,588 bytes</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
 <rect x="0.5" y="0.5" width="479" height="329" rx="14" fill="#0d1117" stroke="#263241"/>
 <text x="24" y="35" fill="#f0f6fc" font-size="22" font-weight="600" >Programming Languages</text>
