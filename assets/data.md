@@ -1,15 +1,15 @@
 # Public profile data
 
-Updated 2026-10-23 (UTC).
+Updated 2026-10-24 (UTC).
 
 ## Contribution activity
 
-The calendar covers exactly 365 days: **2025-10-24 through 2026-10-23**, inclusive.
+The calendar covers exactly 365 days: **2025-10-25 through 2026-10-24**, inclusive.
 
 | Metric | Value |
 | --- | ---: |
-| Contributions | 594 |
-| Active days | 122 |
+| Contributions | 620 |
+| Active days | 123 |
 | Longest consecutive streak within this period | 7 days |
 
 Source: [GitHub's public contribution calendar](https://github.com/users/Romgi/contributions), fetched without authentication. These are the counts visible to any visitor. They can include anonymized private activity if the account publicly shares it. GitHub's native calendar sometimes includes additional days to complete its first week; this widget uses exactly 365 days.
@@ -42,7 +42,6 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 
 | Date | Contributions |
 | --- | ---: |
-| 2025-10-24 | 0 |
 | 2025-10-25 | 0 |
 | 2025-10-26 | 2 |
 | 2025-10-27 | 0 |
@@ -406,6 +405,7 @@ Source: [GitHub's public repository API](https://api.github.com/users/Romgi/repo
 | 2026-10-20 | 1 |
 | 2026-10-21 | 2 |
 | 2026-10-22 | 0 |
-| 2026-10-23 | 0 |
+| 2026-10-23 | 26 |
+| 2026-10-24 | 0 |
 
 </details>
